@@ -1,0 +1,19 @@
+{
+  "name": "shex-user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node /tmp/npmz/shex-user/shex-user.js test/cli/1dotOr2dot.shex test/cli/p1.ttl test/cli/p1p2p3.ttl test/cli/empty.ttl",
+    "test:loader": "node /tmp/npmz/shex-user/shex-loader-user.js test/cli/1dotOr2dot.shex test/cli/p1.ttl test/cli/p1p2p3.ttl test/cli/empty.ttl"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shexjs/core": "^1.0.0-alpha.9",
+    "@shexjs/loader": "^1.0.0-alpha.9",
+    "@shexjs/parser": "^1.0.0-alpha.9",
+    "n3": "^1.6.1"
+  }
+}
